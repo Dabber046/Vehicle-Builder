@@ -1,9 +1,9 @@
 
-import Vehicle from './Vehicle.js';
-import Wheel from './Wheel.js';
-import AbleToTow from '../interfaces/AbleToTow.js';
-import Car from './Car.js';
-import Motorbike from './Motorbike.js';
+import Vehicle from './Vehicle';
+import Wheel from './Wheel';
+import AbleToTow from '../interfaces/AbleToTow';
+import Car from './Car';
+import Motorbike from './Motorbike';
 
 class Truck extends Vehicle implements AbleToTow {
   towCapacity: number;

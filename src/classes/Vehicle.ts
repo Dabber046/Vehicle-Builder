@@ -1,6 +1,6 @@
 
-import Wheel from './Wheel.js';
-import Driveable from '../interfaces/Driveable.js';
+import Wheel from './Wheel';
+import Driveable from '../interfaces/Driveable';
 
 class Vehicle implements Driveable {
   vin: string;
